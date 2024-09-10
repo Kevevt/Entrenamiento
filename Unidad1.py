@@ -1,3 +1,4 @@
+import math
 # Varibales "constantes":
 SEGS_EN_1_HORA = 3600
 HORAS_EN_1_DIA = 24
@@ -72,7 +73,9 @@ print(regresa_foo())"""
 # Intentamos pedir el valor de spam
 print(regresa_spam())"""
 
+
 #  EJERCICIO 1: ÁREA DE UN CUBO
+
 def area_cubo(arista):
 
    area_cubo = 6*(arista)**2
@@ -82,8 +85,25 @@ arg_usuario=4
 
 areaCubo = area_cubo(arista=arg_usuario)
 print("")
-print(F'El área del cubo es de {areaCubo} cm ')
+print("5.1 Área de un cubo")
+print(f'Cuando la arista es de {arg_usuario} cm, el área superficial del cubo es de {areaCubo} cm^2')
 
+print("")
+
+# 5.2 LA HIPOTENUSA
+
+print("5.2 La Hipotenusa")
+
+def hipo (c_opuesto, c_adjacente):
+    hipo = math.sqrt(c_opuesto**2 + c_adjacente**2)
+    return hipo
+
+us_c_opuesto = 3
+us_c_adjacente = 2
+
+hipotenusa = hipo(c_opuesto=us_c_opuesto,c_adjacente=us_c_adjacente)
+hipoto = format(hipotenusa,'.2f')
+print(f'Cuando el cateto opuesto es de: {us_c_opuesto} cm y el cateto adjacente es de: {us_c_adjacente} cm, la hipotenusa es de: {hipoto} cm')
 
 
 

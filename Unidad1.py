@@ -81,7 +81,7 @@ def area_cubo(arista):
 arg_usuario=4
 
 areaCubo = area_cubo(arista=arg_usuario)
-
+print("")
 print(F'El área del cubo es de {areaCubo} cm ')
 
 

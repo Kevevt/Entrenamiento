@@ -88,7 +88,17 @@ print(F'El área del cubo es de {areaCubo} cm ')
 
 
 
-
+"""
+Para usar git en la terminal como lo hemos estado haciendo:
+1.- git status: ver cambios en el repositorio
+2.- git add <nombre de tu archivo>: agrega el archivo a un repositorio
+3.- git commit -m "mensaje": confirma los cambios
+4.- git push: sube los cambios a la nube
+############################
+si alguien hizo cambios y sabes que los hay; para actualizar tu repositorio local haces:
+git pull
+y puedes trabajar y proseguir con los pasos anteriores.
+"""
 
 
 

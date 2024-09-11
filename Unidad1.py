@@ -102,7 +102,7 @@ us_c_opuesto = 3
 us_c_adjacente = 2
 
 hipotenusa = hipo(c_opuesto=us_c_opuesto,c_adjacente=us_c_adjacente)
-hipoto = format(hipotenusa,'.2f')
+hipoto = round(hipotenusa,3)
 print(f'Cuando el cateto opuesto es de: {us_c_opuesto} cm y el cateto adjacente es de: {us_c_adjacente} cm, la hipotenusa es de: {hipoto} cm')
 # Se recomienda round. Qué hace la función y no solo copiar por copiar. qué hace round y format.
 # Se pueden utilizar ambas formas. Para legibilidad dejar los parametros, q se presete la menor cantidad de confusiones, se entienda la logica. Encontrar un equilibrio entre legilibidad/logica
